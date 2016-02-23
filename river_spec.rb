@@ -23,9 +23,10 @@ class TestRiver < MiniTest::Test
     assert_equal(3, @river.fish_length)
   end
 
-  def test_eat_fish
-    assert_equal("Trout", @river.eat_fish)
-  end
 
+  def test_get_fish
+    assert_equal("Trout", @river.get_fish)
+  end
+  
 
 end
